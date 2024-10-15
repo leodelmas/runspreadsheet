@@ -45,8 +45,15 @@ const Grid = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  // Ajouter une ligne
+  const addRow = () => {
+    const newRow = Array(7).fill({ type: '', duration: '', interval: '', difficulty: '' });
+    setGrid([...grid, newRow]);
+  };
+
   return (
     <div className="container mx-auto p-4">
+      <button className='mb-4 bg-green-500 text-white px-4 py-2 rounded' onClick={addRow}>Ajouter une ligne</button>
       <table className="min-w-full table-auto border-collapse border border-gray-200">
         <thead>
           <tr className="bg-gray-100">
