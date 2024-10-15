@@ -51,6 +51,12 @@ const Grid = () => {
     setGrid([...grid, newRow]);
   };
 
+  // Supprimer une ligne de la grille
+  const deleteRow = (weekIndex) => {
+    const updatedGrid = grid.filter((_, index) => index !== weekIndex);
+    setGrid(updatedGrid);
+  };
+
   return (
     <div className="container mx-auto p-4">
       <button className='mb-4 bg-green-500 text-white px-4 py-2 rounded' onClick={addRow}>Ajouter une ligne</button>
@@ -64,6 +70,7 @@ const Grid = () => {
             <th className="border border-gray-300 px-4 py-2 text-left">Vendredi</th>
             <th className="border border-gray-300 px-4 py-2 text-left">Samedi</th>
             <th className="border border-gray-300 px-4 py-2 text-left">Dimanche</th>
+            <th className="border border-gray-300 px-4 py-2 text-left">Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -78,6 +85,14 @@ const Grid = () => {
                   {day.type ? `${day.type} (${day.duration}min)` : 'Cliquez pour ajouter'}
                 </td>
               ))}
+              <td className="border border-gray-300 px-4 py-2 text-center">
+                <button
+                  onClick={() => deleteRow(weekIndex)}
+                  className="bg-red-500 text-white px-4 py-2 rounded"
+                >
+                  Supprimer
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>
