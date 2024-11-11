@@ -1,0 +1,1082 @@
+[
+  {
+    "week": 1,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Sunday",
+        "duration": 45,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "4"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 25,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Sunday",
+        "duration": 50,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "4"
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 45,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Sunday",
+        "duration": 60,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "7"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 25,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 45,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "7"
+      },
+      {
+        "day": "Sunday",
+        "duration": 120,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "10"
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Wednesday",
+        "duration": 35,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 45,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 25,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Sunday",
+        "duration": 50,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "5"
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 50,
+        "type": "EPI",
+        "interval": "15’’-15’’ ou 15’’-30’’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 35,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 45,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 80,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "6-7"
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 50,
+        "type": "EPI",
+        "interval": "15’’-15’’ ou 15’’-30’’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 45,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Friday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Saturday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 70,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "6-7"
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 40,
+        "type": "EPI",
+        "interval": "15’’-15’’ ou 15’’-30’’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 60,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "7"
+      },
+      {
+        "day": "Sunday",
+        "duration": 150,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "10"
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Wednesday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 35,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": 55,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "7"
+      },
+      {
+        "day": "Saturday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 60,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "6"
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 40,
+        "type": "EPI",
+        "interval": "15’’-15’’ ou 15’’-30’’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 35,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 30,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Friday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Saturday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 90,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "6-7"
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 60,
+        "type": "EPI",
+        "interval": "15’’-15’’ ou 15’’-30’’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 50,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 60,
+        "type": "EPI",
+        "interval": "3’-1’ ou 3’-2’",
+        "difficulty": "7"
+      },
+      {
+        "day": "Friday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Saturday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 80,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "7"
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 30,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "5"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 15,
+        "type": "EPI",
+        "interval": "3’-1’ ou 3’-2’",
+        "difficulty": "2"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 90,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "7"
+      },
+      {
+        "day": "Sunday",
+        "duration": 210,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "7"
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Wednesday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": 60,
+        "type": "EPI",
+        "interval": "3’-1’ ou 3’-2’",
+        "difficulty": "7"
+      },
+      {
+        "day": "Saturday",
+        "duration": 35,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 60,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "5"
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 40,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 35,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 30,
+        "type": "EPI",
+        "interval": "3’-1’ ou 3’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Friday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Saturday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 150,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "8"
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 70,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "7"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 50,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 70,
+        "type": "EPI",
+        "interval": "3’-1’ ou 3’-2’",
+        "difficulty": "8"
+      },
+      {
+        "day": "Friday",
+        "duration": 50,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Saturday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 90,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "7"
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 30,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "5"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 20,
+        "type": "EPI",
+        "interval": "3’-1’ ou 3’-2’",
+        "difficulty": "2"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 120,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "7"
+      },
+      {
+        "day": "Sunday",
+        "duration": 240,
+        "type": "WEC (T)",
+        "interval": null,
+        "difficulty": "10"
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Wednesday",
+        "duration": 20,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 60,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Friday",
+        "duration": 75,
+        "type": "EPI",
+        "interval": "5’-1’ ou 5’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Saturday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 60,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "5"
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 40,
+        "type": "EPI",
+        "interval": "3’-1’ ou 3’-2’",
+        "difficulty": "7"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 30,
+        "type": "EPI",
+        "interval": "5’-1’ ou 5’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Friday",
+        "duration": 30,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Saturday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 120,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "8"
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 60,
+        "type": "EPI",
+        "interval": "15”-15” ou 15”-30”",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": 50,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Friday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Saturday",
+        "duration": 20,
+        "type": "EPI",
+        "interval": "15’’-15’’ ou 15’’-30’’",
+        "difficulty": "3"
+      },
+      {
+        "day": "Sunday",
+        "duration": 90,
+        "type": "EC (T)",
+        "interval": null,
+        "difficulty": "8"
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "days": [
+      {
+        "day": "Monday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Tuesday",
+        "duration": 50,
+        "type": "EPI",
+        "interval": "1’-1’ ou 1’-2’",
+        "difficulty": "6"
+      },
+      {
+        "day": "Wednesday",
+        "duration": 40,
+        "type": "EC",
+        "interval": null,
+        "difficulty": "2-4"
+      },
+      {
+        "day": "Thursday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Friday",
+        "duration": 20,
+        "type": "EPI",
+        "interval": "15’’-15’’ ou 15’’-30’’",
+        "difficulty": "2"
+      },
+      {
+        "day": "Saturday",
+        "duration": null,
+        "type": "Repos",
+        "interval": null,
+        "difficulty": null
+      },
+      {
+        "day": "Sunday",
+        "duration": null,
+        "type": "Course",
+        "interval": null,
+        "difficulty": null
+      }
+    ]
+  }
+]
