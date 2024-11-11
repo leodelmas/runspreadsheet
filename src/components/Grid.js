@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Session from './Session';
 
 const Grid = () => {
   const initialGrid = Array(4).fill(Array(7).fill({ type: '', duration: '', interval: '', difficulty: '' }));
@@ -10,7 +11,7 @@ const Grid = () => {
     type: 'EC',
     duration: '',
     interval: '',
-    difficulty: 1,
+    difficulty: '',
   });
 
   // Ouvrir la popin avec les données de la cellule
@@ -57,12 +58,42 @@ const Grid = () => {
     setGrid(updatedGrid);
   };
 
+  // Fonction pour charger un programme depuis un JSON
+  const loadProgram = (programData) => {
+    const formattedGrid = programData.map(week => 
+      week.days.map(day => ({
+        type: day.type,
+        duration: day.duration,
+        interval: day.interval,
+        difficulty: day.difficulty
+      }))
+    );
+    setGrid(formattedGrid);
+  };
+
+  // Charge le fichier JSON et lance l'import
+  const handleFileUpload = (event) => {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const programData = JSON.parse(e.target.result);
+        loadProgram(programData);
+      };
+      reader.readAsText(file);
+    }
+  };
+
   return (
-    <div className="container mx-auto p-4">
-      <button className='mb-4 bg-green-500 text-white px-4 py-2 rounded' onClick={addRow}>Ajouter une ligne</button>
+    <div className="container mx-auto py-4">
+      <div className="flex mb-4 space-x-4">
+        <button className='bg-green-500 text-white px-4 py-2 rounded' onClick={addRow}>Ajouter une ligne</button>
+        <input type="file" onChange={handleFileUpload} className='content-center'/>
+      </div>
       <table className="min-w-full table-auto border-collapse border border-gray-200">
         <thead>
           <tr className="bg-gray-100">
+            <th className="border border-gray-300 px-4 py-2 text-left">SEM N°</th>
             <th className="border border-gray-300 px-4 py-2 text-left">Lundi</th>
             <th className="border border-gray-300 px-4 py-2 text-left">Mardi</th>
             <th className="border border-gray-300 px-4 py-2 text-left">Mercredi</th>
@@ -76,13 +107,14 @@ const Grid = () => {
         <tbody>
           {grid.map((week, weekIndex) => (
             <tr key={weekIndex} className="bg-white hover:bg-gray-50">
+              <td className="border border-gray-300 px-4 py-2 text-center font-bold">SEM {weekIndex + 1}</td>
               {week.map((day, dayIndex) => (
                 <td
                   key={dayIndex}
-                  className="border border-gray-300 px-4 py-2 text-center cursor-pointer"
+                  className="border border-gray-300 px-4 py-2 text-left cursor-pointer"
                   onClick={() => openPopin(weekIndex, dayIndex)}
                 >
-                  {day.type ? `${day.type} (${day.duration}min)` : 'Cliquez pour ajouter'}
+                  <Session day={day} />
                 </td>
               ))}
               <td className="border border-gray-300 px-4 py-2 text-center">
@@ -119,6 +151,7 @@ const Grid = () => {
                   <option value="EC (T)">EC (T)</option>
                   <option value="EPI">EPI</option>
                   <option value="Repos">Repos</option>
+                  <option value="Course">Course</option>
                 </select>
               </div>
 
@@ -152,14 +185,12 @@ const Grid = () => {
               <div className="mb-4">
                 <label htmlFor="difficulty" className="block mb-2 font-medium">Difficulté</label>
                 <input
-                  type="number"
+                  type="text"
                   id="difficulty"
                   name="difficulty"
                   value={formData.difficulty}
                   onChange={handleInputChange}
                   className="w-full border border-gray-300 px-2 py-1"
-                  min="1"
-                  max="10"
                 />
               </div>
 
